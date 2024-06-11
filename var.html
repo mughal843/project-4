@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        :root {
+            --color: blue;
+        }
+
+        ul li:first-child {
+            background-color: var(--color);
+        }
+
+        .nav {
+            background-color: aliceblue;
+        }
+
+        .container {
+            background-color: blanchedalmond;
+        
+        }
+       ul :nth-child(2) {
+        background-color: rgb(255, 0, 34);
+       }
+       ul :nth-child(3) {
+        background-color: rgb(172, 29, 48);
+       }
+       ul :nth-child(4) {
+        background-color: rgba(255, 0, 34, 0.5);
+       }
+        ul li {
+            list-style: none;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        ul {
+            display: flex;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Settings</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class="container">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolores veritatis error at ducimus repellat
+            minus mollitia commodi praesentium alias sed dicta esse exercitationem nobis cumque, consequatur sint! Dolor
+            consequuntur assumenda optio, eveniet ullam cumque commodi ad illo temporibus possimus velit repellat dolores
+            quisquam id officiis similique ipsa corrupti repudiandae tempora, nobis aliquam impedit nam!</p>
+    </div>
+</body>
+
+</html>
